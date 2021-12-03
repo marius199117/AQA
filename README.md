@@ -1,2 +1,0 @@
-# AQA
-Automation UI Solution

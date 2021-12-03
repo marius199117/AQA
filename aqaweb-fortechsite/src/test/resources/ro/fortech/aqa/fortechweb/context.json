@@ -1,0 +1,150 @@
+{
+  "page": {
+    "root": "http://aqa-automation.fortech.ro:5000/",
+    "outsourcing": "${page.root}software-outsourcing/",
+    "expertise": "${page.root}technical-expertise/",
+    "company": "${page.root}company/",
+    "careers": "${page.root}careers/",
+    "contact": "${page.root}contact/",
+    "blog": "${page.root}category/blog/",
+    "nearshoreSoftwareOutsourcing": {
+      "url": "${page.root}software-outsourcing/"
+    },
+    "offshoreSoftwareOutsourcing": {
+      "url": "${page.root}software-outsourcing/"
+    },
+    "customWebDevelopment": {
+      "url": "${page.root}technical-expertise/web-development/"
+    },
+    "softwareTestingOutsourcing": {
+      "url": "${page.root}software-outsourcing/software-testing-outsourcing/"
+    },
+    "softwareForTheAutomotiveIndustry": {
+      "url": "${page.root}technical-expertise/automotive-software/"
+    },
+    "ioTSoftwareSolutions": {
+      "url": "${page.root}technical-expertise/iot-software-development/"
+    },
+    "mobileAppDev": {
+      "url": "${page.root}technical-expertise/mobile-application-development/"
+    },
+    "healthcareSoftwareDevelopment": {
+      "url": "${page.root}technical-expertise/healthcare-software-development/"
+    },
+    "dropDown": ".//div[@class=\"container-fluid menu-content text-center no-padding\"]",
+    "customerSoftware": {
+      "url": "${page.root}software-outsourcing/custom-software-development/"
+    },
+    "devOps": {
+      "url": "${page.root}software-outsourcing/devops-services/"
+    },
+    "softwareProjectsShowcase": "${page.root}technical-expertise/software-projects-showcase/"
+  },
+  "footer": "//*[@id=\"top-footer\"]",
+  "top": {
+    "anchor": {
+      "outsourcing": "${footer}//a[contains(text(),'Outsourcing')]",
+      "expertise": "${footer}//a[contains(text(),'Expertise')]",
+      "company": "${footer}//a[contains(text(),'Company')]",
+      "careers": "${footer}//a[contains(text(),'Careers')]",
+      "contact": "${footer}//a[contains(text(),'Contact')]"
+    }
+  },
+  "bottom": {
+    "footer": ".//div[@id=\"bottom-footer\"]",
+    "linkedin": {
+      "class": "${bottom.footer}//i[@class=\"fa fa-linkedin fa-lg\"]",
+      "url": "https://www.linkedin.com/company/fortech?trk=tyah"
+    },
+    "xing": {
+      "class": "${bottom.footer}//i[@class=\"fa fa-xing fa-lg\"]",
+      "url": "https://www.xing.com/companies/fortech?trkid=us%3Aad00d9207487ec5c47076d3d74f85d7c%3Ad41d8cd98f00b204e9800998ecf8427e%3Acompanies%3Btrkoff%3D0"
+    },
+    "facebook": {
+      "class": "${bottom.footer}//i[@class=\"fa fa-facebook fa-lg\"]",
+      "url": "https://www.facebook.com/fortech.ro/"
+    },
+    "twitter": {
+      "class": "${bottom.footer}//i[@class=\"fa fa-twitter fa-lg\"]",
+      "url": "https://twitter.com/FortechRomania"
+    }
+  },
+  "topmenu": {
+    "button": {
+      "contact": "//header//label[contains(text(),'Contact')]",
+      "search": "//header//label[contains(text(),'Search')]",
+      "backToHomepage": "/html/body/div[4]/div/div[2]/a[contains(text(),'Back to Homepage')]",
+      "dropDown": ".//div[@class=\"menu pull-right pointer navbar-menu-order\"]"
+    },
+    "textbox": {
+      "search": "//form/input[@type='search']"
+    }
+  },
+  "searchPage": {
+    "searchTextbox": "/html/body/div[4]/div/div[2]/div[1]/div/form/label/input"
+  },
+  "homepage": {
+    "logo": "//header//a[@itemtype='http://schema.org/Logo']",
+    "wedo": "/html/body/div[4]/div/main/div[2]/div/div/a[@href='/software-outsourcing/']"
+  },
+  "policy": "//span[contains(text(),'Accept and Close')]",
+  "theyChoseUs": {
+    "title": "//h2[contains(text(),'They Chose Us')]",
+    "novotoxGroup": ".they-chose-us img[src='http://aqa-automation.fortech.ro:5000/wp-content/uploads/2019/04/NovotoxFortechClient.jpg']",
+    "enciteTechnologiesGroup": ".they-chose-us img[src='http://aqa-automation.fortech.ro:5000/wp-content/uploads/2019/04/EnciteTechnologiesFortechClient.jpg']",
+    "globalBrandsGroup": ".they-chose-us img[src='http://aqa-automation.fortech.ro:5000/wp-content/uploads/2019/04/GlobalBrandsGroupFortechClient.jpg']",
+    "leasecakeGroup": ".they-chose-us img[src='http://aqa-automation.fortech.ro:5000/wp-content/uploads/2019/04/LeasecakeFortechClient.jpg']",
+    "crmGroup": ".they-chose-us img[src='http://aqa-automation.fortech.ro:5000/wp-content/uploads/2019/04/CRMGroupFortechClient.jpg']",
+    "stiConsultingGroup": ".they-chose-us img[src='http://aqa-automation.fortech.ro:5000/wp-content/uploads/2019/04/STIConsultingFortechClient.jpg']"
+  },
+  "videoBanner": {
+    "masteryInSoftwareEngineering": "//h1[contains(text(),'Mastery in Software Engineering')]",
+    "learnMore": "//a[contains(text(), 'Learn More')]"
+  },
+  "weCanHelpWith": {
+    "title": "//h2[contains(text(),'We Can Help With')]",
+    "nearshoreSoftwareOutsourcing": "//a[contains(text(),'Nearshore software outsourcing')]",
+    "offshoreSoftwareOutsourcing": "//a[contains(text(),'Offshore software outsourcing')]",
+    "customWebDevelopment": "//a[contains(text(),'Custom Web development')]",
+    "softwareTestingOutsourcing": "//a[contains(text(),'Software Testing Outsourcing')]",
+    "softwareForTheAutomotiveIndustry": "//a[contains(text(),'Software for the automotive industry')]",
+    "ioTSoftwareSolutions": "//a[contains(text(),'IoT software solutions')]",
+    "bespokeMobileApp": "//a[@href=\"/technical-expertise/mobile-application-development/\"]",
+    "healthcareSoftwareDevelopment": "//a[contains(text(),'Healthcare software development')]"
+  },
+  "newsAndInsights": {
+    "title": "//h2[contains(text(), 'News & Insights')]",
+    "firstReadMoreButton": "/html/body/div[4]/div/main/div[5]/div/div[2]/div/div/ul/div/div/li[1]/div[2]/a/button",
+    "secondReadMoreButton": "/html/body/div[4]/div/main/div[5]/div/div[2]/div/div/ul/div/div/li[2]/div[2]/a/button",
+    "thirdReadMoreButton": "/html/body/div[4]/div/main/div[5]/div/div[2]/div/div/ul/div/div/li[3]/div[2]/a/button",
+    "backToAllPosts": "//span[contains(text(), 'Back to All Posts')]",
+    "bespokeMobileApp": "//a[@href=\"/technical-expertise/mobile-application-development/\"]"
+  },
+  "weDo": {
+    "title": "//h2[contains(text(),'We Do')]",
+    "customerSoftwareArea": {
+      "button": {
+        "learnMore": "//a[@title='Custom Software']/button"
+      }
+    },
+    "devOpsArea": {
+      "button": {
+        "learnMore": "//a[@title='DevOps']/button"
+      }
+    }
+  },
+  "successStories": {
+    "area": "/html/body/div[4]/div/main/div[3]/div/div[1]/div[3]/div/div[2]/div[2]/div",
+    "discoverMore": "//a[contains(text(), ' Discover More')]"
+  },
+  "contactForm": {
+    "yourName": "//input[@placeholder='Your name*']",
+    "organization": "//input[@placeholder='Organization*']",
+    "email": "//input[@placeholder='Email*']",
+    "learnAboutUs": "//option[contains(text(),'How did you hear about us?')]",
+    "consentCheckbox": "//input[@value='I consent to having Fortech collect my details via this form.*']",
+    "agreementCheckbox": "//input[@value='I agree to be contacted by Fortech representatives via email or phone.*']",
+    "submitButton": "//input[@type='submit'][@class='wpcf7-form-control wpcf7-submit btn']",
+    "emailNotification": "//div[contains(text(),'Your message has been sent. We will get back to you shortly.')]"
+  }
+}

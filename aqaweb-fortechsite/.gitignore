@@ -1,0 +1,8 @@
+/target/
+/*.project
+/.settings
+/.idea
+/*git
+/fortech-web.iml
+../.metadata
+/.classpath
